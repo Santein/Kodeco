@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		87D21F052E27ABBC009D08F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87D21EEF2E27ABBA009D08F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87D21EF62E27ABBA009D08F9;
+			remoteInfo = "Funny Faces";
+		};
+		87D21F0F2E27ABBC009D08F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87D21EEF2E27ABBA009D08F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87D21EF62E27ABBA009D08F9;
+			remoteInfo = "Funny Faces";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87D21EF72E27ABBA009D08F9 /* Funny Faces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funny Faces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D21F042E27ABBC009D08F9 /* Funny FacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Funny FacesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D21F0E2E27ABBC009D08F9 /* Funny FacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Funny FacesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		87D21EF92E27ABBA009D08F9 /* Funny Faces */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Funny Faces";
+			sourceTree = "<group>";
+		};
+		87D21F072E27ABBC009D08F9 /* Funny FacesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Funny FacesTests";
+			sourceTree = "<group>";
+		};
+		87D21F112E27ABBC009D08F9 /* Funny FacesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Funny FacesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87D21EF42E27ABBA009D08F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D21F012E27ABBC009D08F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D21F0B2E27ABBC009D08F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87D21EEE2E27ABBA009D08F9 = {
+			isa = PBXGroup;
+			children = (
+				87D21EF92E27ABBA009D08F9 /* Funny Faces */,
+				87D21F072E27ABBC009D08F9 /* Funny FacesTests */,
+				87D21F112E27ABBC009D08F9 /* Funny FacesUITests */,
+				87D21EF82E27ABBA009D08F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87D21EF82E27ABBA009D08F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87D21EF72E27ABBA009D08F9 /* Funny Faces.app */,
+				87D21F042E27ABBC009D08F9 /* Funny FacesTests.xctest */,
+				87D21F0E2E27ABBC009D08F9 /* Funny FacesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87D21EF62E27ABBA009D08F9 /* Funny Faces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D21F182E27ABBC009D08F9 /* Build configuration list for PBXNativeTarget "Funny Faces" */;
+			buildPhases = (
+				87D21EF32E27ABBA009D08F9 /* Sources */,
+				87D21EF42E27ABBA009D08F9 /* Frameworks */,
+				87D21EF52E27ABBA009D08F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				87D21EF92E27ABBA009D08F9 /* Funny Faces */,
+			);
+			name = "Funny Faces";
+			packageProductDependencies = (
+			);
+			productName = "Funny Faces";
+			productReference = 87D21EF72E27ABBA009D08F9 /* Funny Faces.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87D21F032E27ABBC009D08F9 /* Funny FacesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D21F1B2E27ABBC009D08F9 /* Build configuration list for PBXNativeTarget "Funny FacesTests" */;
+			buildPhases = (
+				87D21F002E27ABBC009D08F9 /* Sources */,
+				87D21F012E27ABBC009D08F9 /* Frameworks */,
+				87D21F022E27ABBC009D08F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87D21F062E27ABBC009D08F9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				87D21F072E27ABBC009D08F9 /* Funny FacesTests */,
+			);
+			name = "Funny FacesTests";
+			packageProductDependencies = (
+			);
+			productName = "Funny FacesTests";
+			productReference = 87D21F042E27ABBC009D08F9 /* Funny FacesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87D21F0D2E27ABBC009D08F9 /* Funny FacesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D21F1E2E27ABBC009D08F9 /* Build configuration list for PBXNativeTarget "Funny FacesUITests" */;
+			buildPhases = (
+				87D21F0A2E27ABBC009D08F9 /* Sources */,
+				87D21F0B2E27ABBC009D08F9 /* Frameworks */,
+				87D21F0C2E27ABBC009D08F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87D21F102E27ABBC009D08F9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				87D21F112E27ABBC009D08F9 /* Funny FacesUITests */,
+			);
+			name = "Funny FacesUITests";
+			packageProductDependencies = (
+			);
+			productName = "Funny FacesUITests";
+			productReference = 87D21F0E2E27ABBC009D08F9 /* Funny FacesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87D21EEF2E27ABBA009D08F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					87D21EF62E27ABBA009D08F9 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					87D21F032E27ABBC009D08F9 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 87D21EF62E27ABBA009D08F9;
+					};
+					87D21F0D2E27ABBC009D08F9 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 87D21EF62E27ABBA009D08F9;
+					};
+				};
+			};
+			buildConfigurationList = 87D21EF22E27ABBA009D08F9 /* Build configuration list for PBXProject "Funny Faces" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87D21EEE2E27ABBA009D08F9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 87D21EF82E27ABBA009D08F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87D21EF62E27ABBA009D08F9 /* Funny Faces */,
+				87D21F032E27ABBC009D08F9 /* Funny FacesTests */,
+				87D21F0D2E27ABBC009D08F9 /* Funny FacesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87D21EF52E27ABBA009D08F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D21F022E27ABBC009D08F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D21F0C2E27ABBC009D08F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87D21EF32E27ABBA009D08F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D21F002E27ABBC009D08F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D21F0A2E27ABBC009D08F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87D21F062E27ABBC009D08F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87D21EF62E27ABBA009D08F9 /* Funny Faces */;
+			targetProxy = 87D21F052E27ABBC009D08F9 /* PBXContainerItemProxy */;
+		};
+		87D21F102E27ABBC009D08F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87D21EF62E27ABBA009D08F9 /* Funny Faces */;
+			targetProxy = 87D21F0F2E27ABBC009D08F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87D21F162E27ABBC009D08F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LTA62W5B9J;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87D21F172E27ABBC009D08F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LTA62W5B9J;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87D21F192E27ABBC009D08F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LTA62W5B9J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Enable the camera to run the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Santo.Funny-Faces";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87D21F1A2E27ABBC009D08F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LTA62W5B9J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Enable the camera to run the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Santo.Funny-Faces";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87D21F1C2E27ABBC009D08F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LTA62W5B9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Santo.Funny-FacesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Funny Faces.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Funny Faces";
+			};
+			name = Debug;
+		};
+		87D21F1D2E27ABBC009D08F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LTA62W5B9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Santo.Funny-FacesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Funny Faces.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Funny Faces";
+			};
+			name = Release;
+		};
+		87D21F1F2E27ABBC009D08F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LTA62W5B9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Santo.Funny-FacesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Funny Faces";
+			};
+			name = Debug;
+		};
+		87D21F202E27ABBC009D08F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LTA62W5B9J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Santo.Funny-FacesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Funny Faces";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87D21EF22E27ABBA009D08F9 /* Build configuration list for PBXProject "Funny Faces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D21F162E27ABBC009D08F9 /* Debug */,
+				87D21F172E27ABBC009D08F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D21F182E27ABBC009D08F9 /* Build configuration list for PBXNativeTarget "Funny Faces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D21F192E27ABBC009D08F9 /* Debug */,
+				87D21F1A2E27ABBC009D08F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D21F1B2E27ABBC009D08F9 /* Build configuration list for PBXNativeTarget "Funny FacesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D21F1C2E27ABBC009D08F9 /* Debug */,
+				87D21F1D2E27ABBC009D08F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D21F1E2E27ABBC009D08F9 /* Build configuration list for PBXNativeTarget "Funny FacesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D21F1F2E27ABBC009D08F9 /* Debug */,
+				87D21F202E27ABBC009D08F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87D21EEF2E27ABBA009D08F9 /* Project object */;
+}
