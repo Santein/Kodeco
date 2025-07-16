@@ -1,4 +1,4 @@
-# 😎 Funny Faces
+# 🫨 Funny Faces
 
 **Funny Faces** is a fun and interactive iOS app that uses Apple’s Vision framework along with SwiftUI to detect faces in real time using the front-facing camera — and decorate them live with animated googly eyes, cartoon sunglasses, and a playful red mouth.
 
